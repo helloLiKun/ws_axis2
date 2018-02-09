@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<service name="wst">-->
+    <!--<description>-->
+        <!--测试axis2搭建webservice-->
+    <!--</description>-->
+    <!--<parameter name="ServiceClass">-->
+        <!--service.ServiceTest-->
+    <!--</parameter>-->
+    <!--<operation name="sayHello">-->
+        <!--<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />-->
+    <!--</operation>-->
+<!--</service>-->
+<service name="wst">
+    <description>
+       Axis Web Service Example
+    </description>
+    <parameter name="ServiceClass">
+        service.ServiceTest
+    </parameter>
+    <operation name="sayHello">
+        <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+    </operation>
+</service>
